@@ -1,0 +1,19 @@
+# What this package declares about itself.
+#
+# The declaration is capability, not intent, and `aru doctor` compares it with
+# what the code imports and calls.
+
+name = "hyz-is/viacep"
+framework = ">= 0.50"
+profiles = ["conventional", "performance"]
+
+[permissions]
+# It asks ViaCEP, and BrasilAPI when ViaCEP does not answer, for the address
+# of a CEP. Those two hosts, over HTTPS, and nothing else.
+network = true
+# It keeps what it learned in memory, for a day; nothing on disk.
+filesystem = false
+# It runs no other program.
+exec = false
+# It owns no table.
+migrations = false
