@@ -4,7 +4,7 @@
 # what the code imports and calls.
 
 name = "hyz-is/viacep"
-framework = ">= 0.50"
+framework = ">= 0.66"
 profiles = ["conventional", "performance"]
 
 [permissions]
