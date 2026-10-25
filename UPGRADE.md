@@ -1,6 +1,6 @@
 # Upgrade Guide
 
-## Unreleased
+## v0.2.0
 
 `go.mod` declares `go 1.26.10`. Every vulnerability an Arandu application
 reaches is in the Go standard library (crypto/x509, the HTTP/2 and CONNECT
